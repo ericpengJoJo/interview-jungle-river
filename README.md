@@ -1,4 +1,13 @@
-# Jungle River Project
+# Instructions
+
+1. Visit https://codesandbox.io
+2. Click "Repositories" in the left navigation
+3. Click "Import Repository"
+4. Paste the URL of this repository into the "Import from GitHub section"
+5. Complete the project using the requirements below
+6. Once ready, email us a link to your completed project in CodeSandbox
+
+# Jungle River Project Requirements
 
 We are building the Jungle River Store.
 
@@ -9,18 +18,20 @@ Your task is to create the products page:
 - Allow the user to select from grid or list views.
 
 Get the list of products from the API endpoint:
-``https://fakestoreapi.com/products``
+`https://fakestoreapi.com/products`
 
 **Grid View**: Displays larger image, no product description.
 
 **List View**: Displays smaller image with product description.
 
 ## Mock Product List View:
+
 ![List View Mock](list-view-mock.png)
 
 ## Mock Product Grid View:
+
 ![Grid View Mock](grid-view-mock.png)
-  
+
 ---
 
 ## Create React App Commands
