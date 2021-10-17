@@ -12,10 +12,13 @@ $Toggle-on: #6f78bb;
     font-family: sans-serif;
 }
 
-h1{
-    font-size: 300%;
+.page-heading{
+    font-size: 40px;
+    font-weight: bold;
     margin: 20px 0px 20px 20px;
 }
+
+
 .App{
     display: flex;
     justify-content: center;
@@ -38,8 +41,8 @@ li{
     justify-content: space-between;
     align-items: center;
     
-    h2{
-        font-size: 150%;
+    .page-sub-heading{
+        font-size: 22px;
         font-weight: bold;
         margin-left: 20px;
     }
@@ -63,19 +66,19 @@ li{
     justify-content: flex-end;
     margin-right: 15px;
 
-    .grid-icon{
-        -webkit-mask-image: url(../components/icon-grid.svg);
-        mask-image: url(../components/icon-grid.svg);
-        width: 30px;
-        height: 30px;
-    }
+    // .grid-icon{
+    //     -webkit-mask-image: url(../components/ProductsPage/icon-grid.svg);
+    //     mask-image: url(../components/ProductsPage/icon-grid.svg);
+    //     width: 30px;
+    //     height: 30px;
+    // }
     
-    .list-icon{
-        -webkit-mask-image: url(../components/icon-list.svg);
-        mask-image: url(../components/icon-list.svg);
-        width: 30px;
-        height: 30px;
-    }
+    // .list-icon{
+    //     -webkit-mask-image: url(../components/icon-list.svg);
+    //     mask-image: url(../components/icon-list.svg);
+    //     width: 30px;
+    //     height: 30px;
+    // }
 
     .toggleOn{
         background-color: $Toggle-on;
