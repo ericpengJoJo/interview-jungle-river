@@ -61,6 +61,8 @@ li{
     }
 }
 
+
+
 .icons{
     display: flex;
     justify-content: flex-end;
@@ -80,17 +82,28 @@ li{
     //     height: 30px;
     // }
 
-    .toggleOn{
-        background-color: $Toggle-on;
-    }
-
-    .toggleOff{
-        background-color: $Toggle-off;
-
+    .icon{
+        height: 28px;
+        width: 28px;
+        fill: #bbb;
+        margin-right: 5px;
         &:hover{
+            fill:#7783c5;
             cursor: pointer;
         }
     }
+
+    // .toggleOn{
+    //     background-color: $Toggle-on;
+    // }
+
+    // .toggleOff{
+    //     background-color: $Toggle-off;
+
+    //     &:hover{
+    //         cursor: pointer;
+    //     }
+    // }
 }
 
 
