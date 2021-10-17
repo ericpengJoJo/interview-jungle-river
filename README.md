@@ -1,62 +1,34 @@
-# Instructions
+# BitTitan Take Home - Eric Peng
 
-1. Visit https://codesandbox.io
-2. Click "Repositories" in the left navigation
-3. Click "Import Repository"
-4. Paste the URL of this repository into the "Import from GitHub section"
-5. Complete the project using the requirements below
-6. Once ready, email us a link to your completed project in CodeSandbox
+## Overview
 
-# Jungle River Project Requirements
+With this take home problem, I've decided to use the following tech stack to meet the requirements:
 
-We are building the Jungle River Store.
+- Frontend: React, sass for styling help, React Testing Library for testing
 
-Your task is to create the products page:
+The frontend is in development mode and runs on [Port 3000](http://localhost:3000)
 
-- Display the products to the user.
+## Things I'm Proud Of
 
-- Allow the user to select from grid or list views.
+- Firstly, this project was a lot of fun. I enjoyed this given the requirements were very straightforward and easy to understand
+- I was able to successfully implement all of the functionality that was provided upfront
+- I was able to successfully implement loading screen while waiting for data fetching
+- I was able to start the initial unit testing for the development
+- I've done my best to comment my code and make them easier to read for the review process
+- I was able to devote time to this project and finish
 
-Get the list of products from the API endpoint:
-`https://fakestoreapi.com/products`
+## Things I Would Improve Given More Time
 
-**Grid View**: Displays larger image, no product description.
+- I would love to have more time. There's always room for improvement and I'd absolutely love to get feedback to learn how I can continuously improve
+- I would add more testing
+- I would implement dark mode
+- I would implement a search bar feature which allow user to filter the product list
 
-**List View**: Displays smaller image with product description.
+## Why I Chose Each Technology
 
-## Mock Product List View:
+- React is a fantastic tool for its virtual DOM which allows for faster updates, easier DOM manipulation, and less memory wastage. Its component based architecture also allows for more modularity and forming reusable components.
+- Sass not only allows me to create variable based on the color code I need to use frequently. I also can use nested syntax to make my styling more organize and easy to follow.
 
-![List View Mock](list-view-mock.png)
+## Finishing Thoughts
 
-## Mock Product Grid View:
-
-![Grid View Mock](grid-view-mock.png)
-
----
-
-## Create React App Commands
-
-### Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Thank you again for the opportunity! I'm really looking forward to hearing back from you. Please do not hesistate to reach out if I can provide any help.
