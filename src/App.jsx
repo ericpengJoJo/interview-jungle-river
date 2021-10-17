@@ -2,12 +2,11 @@ import React, {useEffect, useState} from "react";
 import './scss/App.scss'
 import { ProductsPage } from './components/ProductsPage/ProductsPage';
 import { ProductContext } from './context/ProductContext'
-import "./App.css";
 
 export default function App() {
   const [productList, setProductList] = useState([])
   const [toggle, setToggle] = useState(false)
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(false)
 
   const fetchData= async ()=>{
     try{

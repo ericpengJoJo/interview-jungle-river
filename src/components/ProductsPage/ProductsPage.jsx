@@ -2,11 +2,12 @@ import React, {useContext} from "react";
 import { ProductContext } from "../../context/ProductContext";
 import { ReactComponent as GridIcon} from './icon-grid.svg';
 import { ReactComponent as ListIcon} from './icon-list.svg';
-// import "./ProductsPage.css";
+import { ListContainer } from "../ListContainer";
+import loadGif from './loading.gif'
 
 export const ProductsPage = () => {
 
-  const {toggle, setToggle} = useContext(ProductContext)
+  const {toggle, setToggle, loading} = useContext(ProductContext)
 
   return (
     <div className="container">
@@ -28,6 +29,14 @@ export const ProductsPage = () => {
             />
         </div>
       </div>
+      {
+        loading?
+        <ListContainer />
+        :
+        <div className="loading">
+          <img src={loadGif} alt="loading..." />
+        </div>
+      }
       
     </div>
   );
