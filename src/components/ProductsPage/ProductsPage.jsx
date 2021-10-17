@@ -20,11 +20,13 @@ export const ProductsPage = () => {
           <ListIcon 
             className="icon" 
             title="list"
+            data-testid="list-icon"
             onClick={e=> !toggle?setToggle(true):null}
             />
           <GridIcon 
             className="icon" 
             title="grid"
+            data-testid="grid-icon"
             onClick={e=> toggle?setToggle(false):null}
             />
         </div>
